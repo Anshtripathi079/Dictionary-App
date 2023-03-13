@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    min-height: 100vh;
+    background-image: linear-gradient(180deg,blue,rgb(90, 90, 246));
+}
+
+.box{
+    flex-direction: column;
+    background-color: white;
+    gap: 1rem;
+    width: 500px;
+    border-radius: 4px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+h2{
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+.input-field{
+    border-radius: 5px;
+    width: 300px;
+    font-size: 1.5rem;
+    padding: 10px;
+    
+}
+.display{
+    display: none;
+    width: 400px;
+}
+
+.inner-data{
+    flex-direction: column;
+}
+
+.btn{
+    padding: 10px;
+    background-color: aqua;
+    color: black;
+    font-weight: 500;
+    cursor: pointer;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+.txt{
+    margin-top: 10px;
+    font-weight: 400;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    margin-left: 5px;
+    margin-right: 5px;
+    background-color: antiquewhite;
+}
+
+@media screen and (max-width: 600px) {
+    .box {
+      width: 400px;
+    }
+    .display {
+      /* height: 300px; */
+      width: 350px;
+    }
+    .aniname {
+      width: 300px;
+    }
+  }
